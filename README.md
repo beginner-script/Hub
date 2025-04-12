@@ -97,6 +97,13 @@ loadstring(game:HttpGet"https://paste.ee/r/XPIH5")()
   end,
 })
 
+local Button = mainTab:CreateButton({
+   Name = "카이가 만든고죠(사이타마)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RuMinGay/gojo/deb59f6926f3ed6fb613ab2601e01f26528e5e90/gojo"))()
+  end,
+})
+
 local mainTab = Window:CreateTab("백도어", nil) -- title, Image
 local mainSection = mainTab:CreateSection("")
 
